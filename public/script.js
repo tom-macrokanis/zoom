@@ -1,3 +1,4 @@
+const videoGrid = document.getElementById("video-grid");
 const myVideo = document.createElement("video");
 myVideo.muted = true;
 
@@ -17,4 +18,5 @@ const addVideoStream = (video, stream) => {
   video.addEventListener("loadmetadata", () => {
     video.play();
   });
+  videoGrid.append(video);
 };
