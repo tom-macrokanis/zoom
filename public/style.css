@@ -6,6 +6,6 @@
 video {
   height: 300px;
   width: 400px;
-  background-color: black;
+  background-color: grey;
   object-fit: cover;
 }
